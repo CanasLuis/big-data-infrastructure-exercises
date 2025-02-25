@@ -39,7 +39,6 @@ s4 = APIRouter(
     tags=["s4"],
 )
 
-# Modificación del endpoint de descarga para guardar archivos .json.gz
 @s4.post("/aircraft/download")
 def download_data(
     file_limit: Annotated[
@@ -104,7 +103,7 @@ def download_data(
     return "OK"
 
 
-# Modificación del endpoint de preparación para unificar en un solo archivo JSON normal (sin comprimir) en S3
+
 @s4.post("/aircraft/prepare")
 def prepare_data() -> str:
     """Obtain all aircraft data from raw JSON files and save them into a single cleaned JSON file in S3 (without compression)."""
@@ -124,7 +123,7 @@ def prepare_data() -> str:
 
     all_aircraft_data = []
 
-    # Procesar todos los archivos JSON
+
     for file in os.listdir(raw_folder):
         if file.endswith(".json.gz"):
             file_path = os.path.join(raw_folder, file)
@@ -167,7 +166,7 @@ def prepare_data() -> str:
     with open(merged_file_path, "w", encoding="utf-8") as f:
         json.dump({"aircraft": all_aircraft_data}, f)
 
-    # Subir el archivo JSON normal a S3
+    
     s3_object_name = "prepared/day=20231101/merged_aircraft_data.json"
     try:
         s3_client.upload_file(merged_file_path, settings.s3_bucket, s3_object_name)
@@ -177,12 +176,11 @@ def prepare_data() -> str:
 
     return f"Data preparation completed successfully! Single JSON file saved in S3 at {s3_object_name}"
 
-# En `exercise.py`, al final, deberías agregar lo siguiente:
+
 
 from fastapi import FastAPI
-from bdi_api.s4.exercise import s4  # Esto importa correctamente el router `s4` desde `exercise.py`
+from bdi_api.s4.exercise import s4
 
 app = FastAPI()
 
-# Incluir el router de s4 correctamente
 app.include_router(s4)
