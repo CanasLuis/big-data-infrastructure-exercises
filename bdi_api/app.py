@@ -1,6 +1,10 @@
 import logging
 from contextlib import asynccontextmanager
 from typing import AsyncIterator
+from dotenv import load_dotenv
+load_dotenv()
+
+
 
 import uptrace
 from fastapi import FastAPI
