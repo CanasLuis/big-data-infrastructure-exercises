@@ -1,10 +1,11 @@
-import os
 import json
 import logging
-import psycopg
+import os
+
 import boto3
-from fastapi import APIRouter, status, HTTPException, FastAPI  # Añadimos FastAPI
-from io import BytesIO
+import psycopg
+from fastapi import APIRouter, FastAPI, HTTPException, status  # Añadimos FastAPI
+
 from bdi_api.settings import DBCredentials, Settings
 
 # Initialize logging
@@ -58,7 +59,7 @@ def get_db_connection():
         return conn
     except Exception as e:
         logger.error(f"Database connection error: {e}")
-        raise HTTPException(status_code=500, detail="Database connection failed")
+        raise HTTPException(status_code=500, detail="Database connection failed") from e
 
 # Ensure table exists
 def create_table():
@@ -126,9 +127,9 @@ def prepare_data():
                     except Exception as e:
                         logger.error(f"Error inserting data: {e}")
                 conn.commit()
-        
+
         return "Data successfully inserted into PostgreSQL!"
-    
+
     except Exception as e:
         logger.error(f"Error processing data from S3: {e}")
         return {"error": str(e)}
@@ -147,12 +148,12 @@ def list_aircraft(num_results: int = 100, page: int = 0):
                     LIMIT %s OFFSET %s;
                 """, (num_results, offset))
                 data = cur.fetchall()
-        
+
         return [{"icao": row[0], "registration": row[1], "type": row[2]} for row in data]
 
     except Exception as e:
         logger.error(f"Error retrieving aircraft list: {e}")
-        raise HTTPException(status_code=500, detail="Failed to retrieve aircraft data")
+        raise HTTPException(status_code=500, detail="Failed to retrieve aircraft data") from e
 
 @s7.get("/aircraft/{icao}/positions")
 def get_aircraft_position(icao: str, num_results: int = 1000, page: int = 0):
@@ -169,12 +170,12 @@ def get_aircraft_position(icao: str, num_results: int = 1000, page: int = 0):
                     LIMIT %s OFFSET %s;
                 """, (icao, num_results, offset))
                 data = cur.fetchall()
-        
+
         return [{"timestamp": row[0], "lat": row[1], "lon": row[2]} for row in data]
 
     except Exception as e:
         logger.error(f"Error retrieving positions for aircraft {icao}: {e}")
-        raise HTTPException(status_code=500, detail="Failed to retrieve aircraft positions")
+        raise HTTPException(status_code=500, detail="Failed to retrieve aircraft positions") from e
 
 @s7.get("/aircraft/{icao}/stats")
 def get_aircraft_statistics(icao: str):
@@ -188,7 +189,7 @@ def get_aircraft_statistics(icao: str):
                     WHERE icao = %s;
                 """, (icao,))
                 data = cur.fetchone()
-        
+
         if not data or data[0] is None:
             return {"error": "Aircraft not found"}
 
@@ -200,4 +201,4 @@ def get_aircraft_statistics(icao: str):
 
     except Exception as e:
         logger.error(f"Error retrieving statistics for aircraft {icao}: {e}")
-        raise HTTPException(status_code=500, detail="Failed to retrieve aircraft statistics")
+        raise HTTPException(status_code=500, detail="Failed to retrieve aircraft statistics") from e
