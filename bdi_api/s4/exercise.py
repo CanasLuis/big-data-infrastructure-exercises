@@ -10,19 +10,16 @@ import requests
 from bs4 import BeautifulSoup
 from fastapi import APIRouter, Query, status
 from tqdm import tqdm
+import pandas as pd
+import pyarrow as pa
+import pyarrow.parquet as pq
 
 from bdi_api.settings import Settings
 
 settings = Settings()
 
 # AWS S3 session
-session = boto3.Session(
-    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-    aws_session_token=os.getenv("AWS_SESSION_TOKEN"),
-    region_name="us-east-1"
-)
-
+session = boto3.Session()
 s3_client = session.client("s3")
 
 s4 = APIRouter(
@@ -38,10 +35,9 @@ s4 = APIRouter(
 def download_data(
     file_limit: int = Query(..., description="Number of files to download"),
 ) -> str:
-    """Download JSON files and store them directly in S3."""
     base_url = settings.source_url + "/2023/11/01/"
     s3_bucket = settings.s3_bucket
-    s3_prefix_path = "raw/day=20231101/"  # Se mantiene la estructura
+    s3_prefix_path = "raw/day=20231101/"
 
     try:
         response = requests.get(base_url)
@@ -66,73 +62,85 @@ def download_data(
 
     return "OK"
 
+# Function to normalize 'emergency' values
+def parse_emergency(value):
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str) and value.lower() == "none":
+        return False
+    if pd.isna(value):
+        return False
+    return bool(value)
+
 @s4.post("/aircraft/prepare")
 def prepare_data() -> str:
-    """Read aircraft data from S3, process it, and save cleaned JSON back to S3."""
     s3_bucket = settings.s3_bucket
     raw_prefix = "raw/day=20231101/"
     prepared_prefix = "prepared/day=20231101/"
 
-    # List files from S3
     raw_files = s3_client.list_objects_v2(Bucket=s3_bucket, Prefix=raw_prefix).get("Contents", [])
     if not raw_files:
         logging.error("No raw data found in S3.")
         return "No valid data found."
 
-    all_aircraft_data = []
+    record_buffer = []
+    parquet_part = 0
+    index_map = {}
+
+    def flush_to_s3(buffer, part_number):
+        df = pd.DataFrame(buffer)
+        table = pa.Table.from_pandas(df)
+        buf = BytesIO()
+        pq.write_table(table, buf, compression="snappy")
+        buf.seek(0)
+        s3_key = f"{prepared_prefix}data_part_{part_number}.parquet"
+        s3_client.upload_fileobj(buf, s3_bucket, s3_key)
+        return df['icao'].unique().tolist()
 
     for file_obj in raw_files:
         file_key = file_obj["Key"]
         try:
-            # Obtener el objeto desde S3
             file_response = s3_client.get_object(Bucket=s3_bucket, Key=file_key)
-            file_content = file_response["Body"].read().decode("utf-8")  # Leer y decodificar directamente como JSON
-
-            # Convertir a JSON sin intentar descomprimir
+            file_content = file_response["Body"].read().decode("utf-8")
             file_data = json.loads(file_content)
 
-            # Procesar los datos de aeronaves
-            aircraft_data = [
-                {
+            for aircraft in file_data.get("aircraft", []):
+                if not (aircraft.get("hex") and aircraft.get("lat") and aircraft.get("lon")):
+                    continue
+
+                record = {
                     "icao": aircraft.get("hex"),
                     "registration": aircraft.get("r"),
                     "type": aircraft.get("t"),
                     "latitude": aircraft.get("lat"),
                     "longitude": aircraft.get("lon"),
                     "alt_baro": None if aircraft.get("alt_baro") == "ground" else aircraft.get("alt_baro"),
-                    "gs": aircraft.get("gs", None),
-                    "emergency": aircraft.get("emergency", False),
+                    "gs": aircraft.get("gs"),
+                    "emergency": parse_emergency(aircraft.get("emergency")),
                     "timestamp": file_data.get("now"),
                 }
-                for aircraft in file_data.get("aircraft", [])
-                if aircraft.get("hex") and aircraft.get("lat") and aircraft.get("lon")
-            ]
+                record_buffer.append(record)
 
-            if not aircraft_data:
-                logging.warning(f"No aircraft data found in {file_key}")
-                continue
-
-            all_aircraft_data.extend(aircraft_data)
+                if len(record_buffer) % 10000 == 0:
+                    df_tmp = pd.DataFrame(record_buffer)
+                    table_tmp = pa.Table.from_pandas(df_tmp)
+                    buf_tmp = BytesIO()
+                    pq.write_table(table_tmp, buf_tmp, compression="snappy")
+                    size_mb = buf_tmp.tell() / 1024 / 1024
+                    if size_mb >= 100:
+                        icaos_in_part = flush_to_s3(record_buffer, parquet_part)
+                        index_map[f"data_part_{parquet_part}.parquet"] = icaos_in_part
+                        parquet_part += 1
+                        record_buffer.clear()
 
         except Exception as e:
             logging.warning(f"Failed to process file {file_key}: {e}")
 
-    if not all_aircraft_data:
-        logging.error("No valid aircraft data found.")
-        return "No valid data found."
+    if record_buffer:
+        icaos_in_part = flush_to_s3(record_buffer, parquet_part)
+        index_map[f"data_part_{parquet_part}.parquet"] = icaos_in_part
 
-    # Convertir datos a JSON y subir a S3
-    cleaned_data = json.dumps({"aircraft": all_aircraft_data})
+    index_buf = BytesIO(json.dumps(index_map).encode("utf-8"))
+    s3_client.upload_fileobj(index_buf, s3_bucket, f"{prepared_prefix}index.json")
 
-    try:
-        s3_client.put_object(
-            Bucket=s3_bucket,
-            Key=os.path.join(prepared_prefix, "merged_aircraft_data.json"),
-            Body=cleaned_data,
-            ContentType="application/json",
-        )
-    except Exception as e:
-        logging.error(f"Failed to upload processed data to S3: {e}")
-        return f"Failed to upload processed data to S3: {e}"
-
-    return f"Data preparation completed successfully! File saved in S3 at {prepared_prefix}merged_aircraft_data.json"
+    return f"Parquet files saved in S3 at {prepared_prefix} with index.json."

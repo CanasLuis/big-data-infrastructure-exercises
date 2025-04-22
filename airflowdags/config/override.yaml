@@ -1,0 +1,12 @@
+env:
+  - name: POSTGRES_HOST
+    value: database-bdi-aircraft-luis.cbxxbrmk09q5.us-east-1.rds.amazonaws.com
+  - name: POSTGRES_PORT
+    value: "5432"
+  - name: POSTGRES_DB
+    value: postgres
+  - name: POSTGRES_USER
+    value: postgres
+  - name: POSTGRES_PASSWORD
+    value: bdi.aircraft8
+

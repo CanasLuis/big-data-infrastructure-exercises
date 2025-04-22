@@ -1,0 +1,2384 @@
+{
+    "B738": {
+        "name": "B738",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A320": {
+        "name": "A320",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C172": {
+        "name": "C172",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A321": {
+        "name": "A321",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B38M": {
+        "name": "B38M",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B737": {
+        "name": "B737",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A20N": {
+        "name": "A20N",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A21N": {
+        "name": "A21N",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P28A": {
+        "name": "P28A",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E75L": {
+        "name": "E75L",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B77W": {
+        "name": "B77W",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B739": {
+        "name": "B739",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B789": {
+        "name": "B789",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A319": {
+        "name": "A319",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B763": {
+        "name": "B763",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A359": {
+        "name": "A359",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A333": {
+        "name": "A333",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B788": {
+        "name": "B788",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B772": {
+        "name": "B772",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C208": {
+        "name": "C208",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B77L": {
+        "name": "B77L",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B752": {
+        "name": "B752",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B39M": {
+        "name": "B39M",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A332": {
+        "name": "A332",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CRJ9": {
+        "name": "CRJ9",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TWR": {
+        "name": "TWR",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DA40": {
+        "name": "DA40",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PC12": {
+        "name": "PC12",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DH8D": {
+        "name": "DH8D",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CRJ7": {
+        "name": "CRJ7",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A388": {
+        "name": "A388",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C72R": {
+        "name": "C72R",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BCS3": {
+        "name": "BCS3",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AT76": {
+        "name": "AT76",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B748": {
+        "name": "B748",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B744": {
+        "name": "B744",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C152": {
+        "name": "C152",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E190": {
+        "name": "E190",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AS50": {
+        "name": "AS50",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE20": {
+        "name": "BE20",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SR20": {
+        "name": "SR20",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CL30": {
+        "name": "CL30",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A35K": {
+        "name": "A35K",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SR22": {
+        "name": "SR22",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CRJ2": {
+        "name": "CRJ2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B407": {
+        "name": "B407",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C182": {
+        "name": "C182",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B78X": {
+        "name": "B78X",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B190": {
+        "name": "B190",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA44": {
+        "name": "PA44",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C150": {
+        "name": "C150",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GLEX": {
+        "name": "GLEX",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BCS1": {
+        "name": "BCS1",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "H60": {
+        "name": "H60",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B712": {
+        "name": "B712",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B06": {
+        "name": "B06",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GLF6": {
+        "name": "GLF6",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A339": {
+        "name": "A339",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C68A": {
+        "name": "C68A",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E55P": {
+        "name": "E55P",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "R44": {
+        "name": "R44",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "R22": {
+        "name": "R22",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "MD11": {
+        "name": "MD11",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SF34": {
+        "name": "SF34",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B734": {
+        "name": "B734",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SERV": {
+        "name": "SERV",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CL60": {
+        "name": "CL60",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C56X": {
+        "name": "C56X",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EC35": {
+        "name": "EC35",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DH8C": {
+        "name": "DH8C",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A306": {
+        "name": "A306",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TEX2": {
+        "name": "TEX2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C25B": {
+        "name": "C25B",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "F100": {
+        "name": "F100",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B350": {
+        "name": "B350",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E170": {
+        "name": "E170",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SW4": {
+        "name": "SW4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E295": {
+        "name": "E295",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B753": {
+        "name": "B753",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "M20P": {
+        "name": "M20P",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LJ45": {
+        "name": "LJ45",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE9L": {
+        "name": "BE9L",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GLF4": {
+        "name": "GLF4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AT75": {
+        "name": "AT75",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GND": {
+        "name": "GND",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E75S": {
+        "name": "E75S",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B733": {
+        "name": "B733",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A139": {
+        "name": "A139",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA34": {
+        "name": "PA34",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B762": {
+        "name": "B762",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C17": {
+        "name": "C17",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E45X": {
+        "name": "E45X",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "F900": {
+        "name": "F900",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "S22T": {
+        "name": "S22T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PC21": {
+        "name": "PC21",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C25A": {
+        "name": "C25A",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P28R": {
+        "name": "P28R",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GLF5": {
+        "name": "GLF5",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "H25B": {
+        "name": "H25B",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "H500": {
+        "name": "H500",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE99": {
+        "name": "BE99",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C82T": {
+        "name": "C82T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "F2TH": {
+        "name": "F2TH",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA31": {
+        "name": "PA31",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE36": {
+        "name": "BE36",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C441": {
+        "name": "C441",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C560": {
+        "name": "C560",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PIAT": {
+        "name": "PIAT",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "FA7X": {
+        "name": "FA7X",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E145": {
+        "name": "E145",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B764": {
+        "name": "B764",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TWEN": {
+        "name": "TWEN",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DA42": {
+        "name": "DA42",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV12": {
+        "name": "RV12",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE30": {
+        "name": "BE30",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C750": {
+        "name": "C750",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E120": {
+        "name": "E120",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C680": {
+        "name": "C680",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "G280": {
+        "name": "G280",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "T206": {
+        "name": "T206",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EC45": {
+        "name": "EC45",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E50P": {
+        "name": "E50P",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AS65": {
+        "name": "AS65",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B429": {
+        "name": "B429",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C550": {
+        "name": "C550",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SU95": {
+        "name": "SU95",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GL5T": {
+        "name": "GL5T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EC30": {
+        "name": "EC30",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C162": {
+        "name": "C162",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C210": {
+        "name": "C210",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TBM7": {
+        "name": "TBM7",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE58": {
+        "name": "BE58",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LJ35": {
+        "name": "LJ35",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C310": {
+        "name": "C310",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GALX": {
+        "name": "GALX",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DHC6": {
+        "name": "DHC6",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SLG4": {
+        "name": "SLG4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GL7T": {
+        "name": "GL7T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C130": {
+        "name": "C130",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE35": {
+        "name": "BE35",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GA8": {
+        "name": "GA8",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "FA50": {
+        "name": "FA50",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AT45": {
+        "name": "AT45",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE40": {
+        "name": "BE40",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CRUZ": {
+        "name": "CRUZ",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DH8A": {
+        "name": "DH8A",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DV20": {
+        "name": "DV20",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA18": {
+        "name": "PA18",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C207": {
+        "name": "C207",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AT46": {
+        "name": "AT46",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "K35R": {
+        "name": "K35R",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C700": {
+        "name": "C700",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "S76": {
+        "name": "S76",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C30J": {
+        "name": "C30J",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C404": {
+        "name": "C404",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV6": {
+        "name": "RV6",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV7": {
+        "name": "RV7",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "G2CA": {
+        "name": "G2CA",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA46": {
+        "name": "PA46",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E35L": {
+        "name": "E35L",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SLG2": {
+        "name": "SLG2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BL8": {
+        "name": "BL8",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B773": {
+        "name": "B773",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C206": {
+        "name": "C206",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A346": {
+        "name": "A346",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LJ60": {
+        "name": "LJ60",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C408": {
+        "name": "C408",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E545": {
+        "name": "E545",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C421": {
+        "name": "C421",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C414": {
+        "name": "C414",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SH36": {
+        "name": "SH36",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "H64": {
+        "name": "H64",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "H47": {
+        "name": "H47",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "G150": {
+        "name": "G150",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C25C": {
+        "name": "C25C",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CN35": {
+        "name": "CN35",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C180": {
+        "name": "C180",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PC24": {
+        "name": "PC24",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A30B": {
+        "name": "A30B",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C525": {
+        "name": "C525",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "ULAC": {
+        "name": "ULAC",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DA62": {
+        "name": "DA62",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B505": {
+        "name": "B505",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "F70": {
+        "name": "F70",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA30": {
+        "name": "PA30",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AA5": {
+        "name": "AA5",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "HDJT": {
+        "name": "HDJT",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EA50": {
+        "name": "EA50",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C82S": {
+        "name": "C82S",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GA5C": {
+        "name": "GA5C",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A343": {
+        "name": "A343",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AC50": {
+        "name": "AC50",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EUFI": {
+        "name": "EUFI",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B412": {
+        "name": "B412",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "D228": {
+        "name": "D228",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C402": {
+        "name": "C402",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AT43": {
+        "name": "AT43",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P68": {
+        "name": "P68",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GA6C": {
+        "name": "GA6C",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV10": {
+        "name": "RV10",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "FA20": {
+        "name": "FA20",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE10": {
+        "name": "BE10",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA24": {
+        "name": "PA24",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P46T": {
+        "name": "P46T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E195": {
+        "name": "E195",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E550": {
+        "name": "E550",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C650": {
+        "name": "C650",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "ZZZZ": {
+        "name": "ZZZZ",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "D328": {
+        "name": "D328",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C185": {
+        "name": "C185",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CH7B": {
+        "name": "CH7B",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV8": {
+        "name": "RV8",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P212": {
+        "name": "P212",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA32": {
+        "name": "PA32",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A338": {
+        "name": "A338",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CH7A": {
+        "name": "CH7A",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P28B": {
+        "name": "P28B",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA38": {
+        "name": "PA38",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P32R": {
+        "name": "P32R",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A109": {
+        "name": "A109",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "T210": {
+        "name": "T210",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C170": {
+        "name": "C170",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE23": {
+        "name": "BE23",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "MU2": {
+        "name": "MU2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AJ27": {
+        "name": "AJ27",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "F28": {
+        "name": "F28",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P3": {
+        "name": "P3",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CT4": {
+        "name": "CT4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EC20": {
+        "name": "EC20",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C27J": {
+        "name": "C27J",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BK17": {
+        "name": "BK17",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B36T": {
+        "name": "B36T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B58T": {
+        "name": "B58T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DHC3": {
+        "name": "DHC3",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "KODI": {
+        "name": "KODI",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "V10": {
+        "name": "V10",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C82R": {
+        "name": "C82R",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SW3": {
+        "name": "SW3",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "VL3": {
+        "name": "VL3",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E737": {
+        "name": "E737",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE76": {
+        "name": "BE76",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C501": {
+        "name": "C501",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PAY2": {
+        "name": "PAY2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "HUSK": {
+        "name": "HUSK",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "JAB4": {
+        "name": "JAB4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "FDCT": {
+        "name": "FDCT",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CL35": {
+        "name": "CL35",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C340": {
+        "name": "C340",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C177": {
+        "name": "C177",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE95": {
+        "name": "BE95",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE33": {
+        "name": "BE33",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B462": {
+        "name": "B462",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "KMAX": {
+        "name": "KMAX",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LNCE": {
+        "name": "LNCE",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BT36": {
+        "name": "BT36",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C140": {
+        "name": "C140",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P210": {
+        "name": "P210",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AS55": {
+        "name": "AS55",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "ECHO": {
+        "name": "ECHO",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "M5": {
+        "name": "M5",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C510": {
+        "name": "C510",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PAY1": {
+        "name": "PAY1",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C77R": {
+        "name": "C77R",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA22": {
+        "name": "PA22",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E135": {
+        "name": "E135",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "S92": {
+        "name": "S92",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "UH1": {
+        "name": "UH1",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PRM1": {
+        "name": "PRM1",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "MD52": {
+        "name": "MD52",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "NAVI": {
+        "name": "NAVI",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BN2P": {
+        "name": "BN2P",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SF50": {
+        "name": "SF50",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CRES": {
+        "name": "CRES",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV9": {
+        "name": "RV9",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "NG5": {
+        "name": "NG5",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TOUR": {
+        "name": "TOUR",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "HA4T": {
+        "name": "HA4T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "T204": {
+        "name": "T204",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE55": {
+        "name": "BE55",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SONX": {
+        "name": "SONX",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AC90": {
+        "name": "AC90",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AC11": {
+        "name": "AC11",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AC6L": {
+        "name": "AC6L",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P8": {
+        "name": "P8",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AP32": {
+        "name": "AP32",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EC25": {
+        "name": "EC25",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "JS32": {
+        "name": "JS32",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "R200": {
+        "name": "R200",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "Y18T": {
+        "name": "Y18T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DHC2": {
+        "name": "DHC2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C303": {
+        "name": "C303",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LA25": {
+        "name": "LA25",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C212": {
+        "name": "C212",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "MD83": {
+        "name": "MD83",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DC4": {
+        "name": "DC4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "WAIX": {
+        "name": "WAIX",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "G200": {
+        "name": "G200",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "S108": {
+        "name": "S108",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV3": {
+        "name": "RV3",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GLF3": {
+        "name": "GLF3",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "HIGH": {
+        "name": "HIGH",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "R66": {
+        "name": "R66",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE19": {
+        "name": "BE19",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "V22": {
+        "name": "V22",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SHIP": {
+        "name": "SHIP",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P208": {
+        "name": "P208",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "S64": {
+        "name": "S64",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C425": {
+        "name": "C425",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PIVI": {
+        "name": "PIVI",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GB1": {
+        "name": "GB1",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AC68": {
+        "name": "AC68",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA11": {
+        "name": "PA11",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C175": {
+        "name": "C175",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SM19": {
+        "name": "SM19",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RJ1H": {
+        "name": "RJ1H",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LESP": {
+        "name": "LESP",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GLF2": {
+        "name": "GLF2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B37M": {
+        "name": "B37M",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LJ31": {
+        "name": "LJ31",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C5M": {
+        "name": "C5M",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LJ75": {
+        "name": "LJ75",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SGUP": {
+        "name": "SGUP",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA23": {
+        "name": "PA23",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P180": {
+        "name": "P180",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "DC91": {
+        "name": "DC91",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "COL4": {
+        "name": "COL4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "ASTO": {
+        "name": "ASTO",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "MD88": {
+        "name": "MD88",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E6": {
+        "name": "E6",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EN48": {
+        "name": "EN48",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P32T": {
+        "name": "P32T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "L90": {
+        "name": "L90",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EVOT": {
+        "name": "EVOT",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AT73": {
+        "name": "AT73",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CVLT": {
+        "name": "CVLT",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CVLP": {
+        "name": "CVLP",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A400": {
+        "name": "A400",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "Q4": {
+        "name": "Q4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A318": {
+        "name": "A318",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A19N": {
+        "name": "A19N",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RJ85": {
+        "name": "RJ85",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "E110": {
+        "name": "E110",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "T6": {
+        "name": "T6",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LEG2": {
+        "name": "LEG2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "R135": {
+        "name": "R135",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AP22": {
+        "name": "AP22",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE24": {
+        "name": "BE24",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SREY": {
+        "name": "SREY",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "PA27": {
+        "name": "PA27",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A169": {
+        "name": "A169",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "F8L": {
+        "name": "F8L",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B742": {
+        "name": "B742",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "FOX": {
+        "name": "FOX",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TAMP": {
+        "name": "TAMP",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "LJ55": {
+        "name": "LJ55",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "ASTR": {
+        "name": "ASTR",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TBM8": {
+        "name": "TBM8",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BR61": {
+        "name": "BR61",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV4": {
+        "name": "RV4",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "G2T1": {
+        "name": "G2T1",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P06T": {
+        "name": "P06T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "KC2": {
+        "name": "KC2",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CAMP": {
+        "name": "CAMP",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "ST75": {
+        "name": "ST75",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "SA30": {
+        "name": "SA30",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "S2P": {
+        "name": "S2P",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "C25M": {
+        "name": "C25M",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B735": {
+        "name": "B735",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AT8T": {
+        "name": "AT8T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CDUS": {
+        "name": "CDUS",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE56": {
+        "name": "BE56",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "VO10": {
+        "name": "VO10",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AJET": {
+        "name": "AJET",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "IL76": {
+        "name": "IL76",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "P750": {
+        "name": "P750",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "CH60": {
+        "name": "CH60",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EC75": {
+        "name": "EC75",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "MD82": {
+        "name": "MD82",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "AT3T": {
+        "name": "AT3T",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GLID": {
+        "name": "GLID",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TEXA": {
+        "name": "TEXA",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A119": {
+        "name": "A119",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "H269": {
+        "name": "H269",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "EXPL": {
+        "name": "EXPL",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "TOBA": {
+        "name": "TOBA",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "YK52": {
+        "name": "YK52",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "T38": {
+        "name": "T38",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "A5": {
+        "name": "A5",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "B736": {
+        "name": "B736",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "BE77": {
+        "name": "BE77",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "L8": {
+        "name": "L8",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "ERCO": {
+        "name": "ERCO",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "G44": {
+        "name": "G44",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "F50": {
+        "name": "F50",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "RV14": {
+        "name": "RV14",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "GLAS": {
+        "name": "GLAS",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    },
+    "WW24": {
+        "name": "WW24",
+        "galph": null,
+        "category": "Unknown",
+        "source": "based on aircraft_positions"
+    }
+}

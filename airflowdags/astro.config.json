@@ -1,0 +1,16 @@
+{
+    "projectId": "airflowdags_2e19ff",
+    "webserver": {
+      "port": 8080
+    },
+    "compose": {
+      "services": {
+        "postgres": {
+          "deploy": {
+            "replicas": 0
+          }
+        }
+      }
+    }
+  }
+  
